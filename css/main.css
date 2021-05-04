@@ -1,0 +1,150 @@
+body,
+html {
+  overflow-x: hidden;
+}
+.navbar .navbar-nav .nav-link:not(.btn) i.fa {
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+  text-align: center;
+  width: 21px;
+}
+.clear-filter[filter-color='pink-blue'] {
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(0, 0, 0, 0.8));
+}
+.bg-pink-blue {
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0, #f76b1c 100%);
+}
+[data-background-color='pink-blue'] {
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0, #f76b1c 100%);
+}
+.navbar.navbar-transparent {
+  background-color: transparent !important;
+  background: 0 0 !important;
+}
+.index-page .page-header .container > .content-center {
+  top: 43%;
+}
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 1.05em;
+}
+.card {
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.ayo {
+  height: 200px;
+  width: auto;
+}
+.sp {
+  display: none;
+}
+.pc {
+  display: block;
+}
+.pc.n-logo {
+  display: inline-block;
+}
+.sp.n-logo {
+  display: none;
+}
+.btn,
+input[type='email'],
+input[type='text'] {
+  font-size: 1.15em;
+}
+.btn-pink-blue {
+  background-color: red;
+  margin: 20px 0 50px 0;
+}
+.btn-pink-blue:active,
+.btn-pink-blue:focus,
+.btn-pink-blue:hover,
+.btn-pink-blue:hover:active {
+  background-color: #6d0808;
+}
+.productivity-row {
+  margin-bottom: 40px;
+}
+.modal-dialog {
+  max-width: 600px;
+}
+.title {
+  font-weight: 400;
+  text-align: center;
+}
+.ayo {
+  margin: 10px 0 25px;
+}
+#productivity {
+  padding: 30px 0 30px 0;
+}
+#actions,
+#contact,
+#testimonials {
+  padding: 30px 0 90px 0;
+}
+#actions h2,
+#productivity h2 {
+  margin-bottom: 10px;
+}
+h2 {
+  -webkit-background-clip: text;
+  color: #000;
+  font-size: 3.3em;
+}
+#actions h5,
+#productivity h5 {
+  margin-bottom: 40px;
+}
+.testimonial-item img {
+  width: 175px;
+  margin: 10px 0 25px 0;
+}
+.col-form-contact {
+  padding: 0;
+}
+.subscribe .btn-pink-blue {
+  margin: 0 0 35px 0;
+}
+.img-raised {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.copyright {
+  width: 100%;
+  text-align: center !important;
+}
+.subscribe {
+  box-shadow: 0 3px 20px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar-collapse:before {
+    background-color: #fad961;
+    background-image: linear-gradient(90deg, #fad961 0, #f76b1c 100%);
+    opacity: 1;
+  }
+  .sp {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  .sp.n-logo {
+    display: inline-block;
+  }
+  .pc.n-logo {
+    display: none;
+  }
+  h2 {
+    font-size: 2.3em;
+  }
+  .card-signup {
+    height: auto;
+  }
+}
